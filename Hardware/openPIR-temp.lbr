@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -345,10 +345,6 @@
 <vertex x="1.7" y="-10.45"/>
 <vertex x="1.7" y="-12.05"/>
 </polygon>
-<text x="0" y="11.176" size="0.254" layer="20" ratio="20" align="center">ROUTE OUT</text>
-<text x="0" y="-11.303" size="0.254" layer="20" ratio="20" align="center">ROUTE OUT</text>
-<text x="-11.176" y="0" size="0.254" layer="20" ratio="20" rot="R90" align="center">ROUTE OUT</text>
-<text x="11.303" y="0" size="0.254" layer="20" ratio="20" rot="R90" align="center">ROUTE OUT</text>
 </package>
 <package name="LENS-AA-0.9-GI-T1">
 <description>&lt;h3&gt;Zilog AA 0.9 GI T1 PIR Lens&lt;/h3&gt;
@@ -529,10 +525,6 @@
 <vertex x="9.45" y="-0.05"/>
 <vertex x="11.55" y="-0.05"/>
 </polygon>
-<text x="-10.414" y="-1.524" size="0.254" layer="20" ratio="20" rot="R90" align="center">ROUTE OUT</text>
-<text x="-5.969" y="-4.445" size="0.254" layer="20" ratio="20" rot="R180" align="center">ROUTE OUT</text>
-<text x="10.414" y="1.524" size="0.254" layer="20" ratio="20" rot="R270" align="center">ROUTE OUT</text>
-<text x="5.842" y="4.445" size="0.254" layer="20" ratio="20" align="center">ROUTE OUT</text>
 </package>
 <package name="SO08">
 <wire x1="2.2418" y1="1.9463" x2="-2.2418" y2="1.9463" width="0.2032" layer="21"/>
