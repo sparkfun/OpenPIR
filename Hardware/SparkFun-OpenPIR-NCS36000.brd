@@ -166,7 +166,7 @@
 <text x="12.573" y="4.064" size="1.778" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">-</text>
 <text x="10.0965" y="4.3815" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
 <text x="15.1765" y="4.064" size="1.778" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">+</text>
-<text x="1.905" y="13.97" size="0.889" layer="21" font="vector" ratio="15" align="bottom-center">xLED</text>
+<text x="2.54" y="26.67" size="0.889" layer="21" font="vector" ratio="15" align="bottom-center">xLED</text>
 <dimension x1="0" y1="0" x2="2.54" y2="2.54" x3="1.27" y3="-1.27" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="25.4" y2="2.54" x3="12.7" y3="-6.35" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="27.94" y2="0" x3="13.97" y3="-8.89" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
@@ -1928,7 +1928,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R8" library="SparkFun-Resistors" package="0603" value="1k" x="3.175" y="7.62" rot="R270">
 <attribute name="PROD_ID" value="RES-07856" x="3.175" y="7.62" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="SJ1" library="SparkFun-Retired" package="SJ_2S" value="LED-EN" x="1.905" y="12.7" rot="R180"/>
+<element name="SJ1" library="SparkFun-Retired" package="SJ_2S" value="LED-EN" x="2.54" y="25.4"/>
 <element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="" x="9.5504" y="32.639">
 <attribute name="PROD_ID" value="SWCH-10651" x="9.5504" y="32.639" size="1.778" layer="27" ratio="15" display="off"/>
 </element>
@@ -1978,6 +1978,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J2" pad="3"/>
 <wire x1="12.7" y1="1.27" x2="12.97" y2="1.54" width="0.254" layer="1"/>
 <wire x1="12.97" y1="1.54" x2="12.97" y2="3.344" width="0.254" layer="1"/>
+<via x="4.445" y="17.0942" extent="1-16" drill="0.508"/>
+<via x="7.62" y="12.6492" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="N$2">
 <contactref element="U2" pad="D"/>
@@ -2130,9 +2132,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="!LED_EN!">
 <contactref element="U1" pad="10"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="2.3169" y1="12.7" x2="5.588" y2="12.7" width="0.254" layer="1"/>
-<wire x1="5.588" y1="12.7" x2="6.985" y2="11.303" width="0.254" layer="1"/>
-<wire x1="6.985" y1="9.9" x2="6.985" y2="11.303" width="0.254" layer="1"/>
+<wire x1="5.588" y1="12.192" x2="6.985" y2="10.795" width="0.254" layer="1"/>
+<wire x1="6.985" y1="9.9" x2="6.985" y2="10.795" width="0.254" layer="1"/>
+<wire x1="2.1281" y1="25.4" x2="2.1281" y2="23.7181" width="0.254" layer="1"/>
+<wire x1="5.588" y1="12.192" x2="2.921" y2="12.192" width="0.254" layer="1"/>
+<wire x1="2.921" y1="12.192" x2="0.762" y2="14.351" width="0.254" layer="1"/>
+<wire x1="0.762" y1="14.351" x2="0.762" y2="22.352" width="0.254" layer="1"/>
+<wire x1="0.762" y1="22.352" x2="2.1281" y2="23.7181" width="0.254" layer="1"/>
 </signal>
 <signal name="LED">
 <contactref element="U1" pad="9"/>
@@ -2216,8 +2222,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 </signals>
 <errors>
-<approved hash="3,1,a4be4197f7a6128f"/>
 <approved hash="5,1,a39c1cc9cc99f639"/>
+<approved hash="3,1,a4be4197f7a6128f"/>
+<approved hash="5,1,fbd47a8fbc97c43f"/>
 <approved hash="4,1,646d894d401aa237"/>
 <approved hash="4,1,726c7d6cbeb4beb9"/>
 </errors>
