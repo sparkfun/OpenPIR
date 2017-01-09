@@ -14877,9 +14877,9 @@ Various fiducial points for machine vision alignment.</description>
 <circle x="-4.572" y="-2.3114" radius="0.218496875" width="0" layer="21"/>
 </package>
 <package name="PIR">
-<pad name="D" x="-1.8" y="-1.8" drill="1.5" diameter="2.75"/>
-<pad name="G" x="1.8" y="1.8" drill="1.5" diameter="2.75"/>
-<pad name="S" x="1.8" y="-1.8" drill="1.5" diameter="2.75"/>
+<pad name="D" x="-1.8" y="-1.8" drill="1.5" diameter="2.75" stop="no"/>
+<pad name="G" x="1.8" y="1.8" drill="1.5" diameter="2.75" stop="no"/>
+<pad name="S" x="1.8" y="-1.8" drill="1.5" diameter="2.75" stop="no"/>
 <circle x="0" y="0" radius="4.6" width="0.127" layer="51"/>
 <rectangle x1="-2.35" y1="-1.85" x2="2.35" y2="1.85" layer="51"/>
 <wire x1="-4.6" y1="-0.2" x2="-4.6" y2="0.2" width="0.127" layer="51"/>
@@ -14892,6 +14892,9 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="2.35" y1="1.85" x2="-2.35" y2="1.85" width="0.127" layer="21"/>
 <text x="0" y="4.98" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-3.5" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.8" y="-1.8" radius="1.4766" width="0" layer="30"/>
+<circle x="1.8" y="-1.8" radius="1.4766" width="0" layer="30"/>
+<circle x="1.8" y="1.8" radius="1.4766" width="0" layer="30"/>
 </package>
 <package name="LENS-CWM-0.5-GI-V1">
 <description>&lt;h3&gt;Zilog CWM 0.5 GI V1 PIR Lens&lt;/h3&gt;
