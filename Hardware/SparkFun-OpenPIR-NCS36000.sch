@@ -27067,6 +27067,28 @@ Various fiducial points for machine vision alignment.</description>
 <vertex x="1.7" y="-10.45"/>
 <vertex x="1.7" y="-12.05"/>
 </polygon>
+<polygon width="0.127" layer="46">
+<vertex x="-12.05" y="1.7"/>
+<vertex x="-10.45" y="1.7"/>
+<vertex x="-10.45" y="-1.7"/>
+<vertex x="-12.05" y="-1.7"/>
+</polygon>
+<wire x1="-10.45" y1="1.7" x2="-10.45" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="-12.05" y1="1.7" x2="-12.05" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="-12.05" y1="1.7" x2="-10.45" y2="1.7" width="0.127" layer="20"/>
+<wire x1="-10.45" y1="-1.7" x2="-12.05" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="12.05" y1="1.7" x2="12.05" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="10.45" y1="1.7" x2="10.45" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="10.45" y1="1.7" x2="12.05" y2="1.7" width="0.127" layer="20"/>
+<wire x1="12.05" y1="-1.7" x2="10.45" y2="-1.7" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="12.05" x2="1.7" y2="12.05" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="10.45" x2="1.7" y2="10.45" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="10.45" x2="-1.7" y2="12.05" width="0.127" layer="20"/>
+<wire x1="1.7" y1="12.05" x2="1.7" y2="10.45" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="-10.45" x2="1.7" y2="-10.45" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="-12.05" x2="1.7" y2="-12.05" width="0.127" layer="20"/>
+<wire x1="-1.7" y1="-12.05" x2="-1.7" y2="-10.45" width="0.127" layer="20"/>
+<wire x1="1.7" y1="-10.45" x2="1.7" y2="-12.05" width="0.127" layer="20"/>
 </package>
 <package name="LENS-AA-0.9-GI-T1">
 <description>&lt;h3&gt;Zilog AA 0.9 GI T1 PIR Lens&lt;/h3&gt;
