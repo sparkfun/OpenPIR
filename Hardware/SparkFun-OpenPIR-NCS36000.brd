@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -159,9 +159,9 @@
 <text x="10.287" y="4.445" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <text x="7.239" y="34.29" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">DUAL</text>
 <text x="12.065" y="34.29" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">SNGL</text>
-<text x="17.145" y="30.353" size="0.889" layer="21" font="vector" ratio="15" align="top-center">OSC</text>
-<text x="20.574" y="30.353" size="0.889" layer="21" font="vector" ratio="15" align="top-center">SEN</text>
-<text x="13.97" y="32.004" size="1.524" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">OpenPIR</text>
+<text x="17.145" y="30.2895" size="0.889" layer="21" font="vector" ratio="15" align="top-center">OSC</text>
+<text x="20.574" y="30.2895" size="0.889" layer="21" font="vector" ratio="15" align="top-center">SEN</text>
+<text x="13.97" y="32.131" size="1.524" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">OpenPIR</text>
 <text x="26.67" y="30.48" size="1.397" layer="21" font="vector" ratio="15" rot="R90" align="bottom-right">OpenPIR</text>
 <text x="12.573" y="4.445" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">GND</text>
 <text x="10.033" y="4.445" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -176,7 +176,7 @@
 <dimension x1="0" y1="0" x2="0" y2="35.56" x3="-8.89" y3="17.78" textsize="0.889" textratio="15" layer="47" dtype="vertical" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="10.16" y2="1.27" x3="-1.27" y3="0.635" textsize="0.889" textratio="15" layer="47" dtype="vertical" width="0.127" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="10.16" y2="1.27" x3="5.08" y3="-3.81" textsize="0.889" textratio="15" layer="47" dtype="horizontal" width="0.127" unit="inch" precision="3"/>
-<text x="6.35" y="0.381" size="0.889" layer="1" font="vector" ratio="15" align="bottom-center">v02</text>
+<text x="6.35" y="0.381" size="0.889" layer="1" font="vector" ratio="15" align="bottom-center">v10</text>
 <text x="21.59" y="-20.32" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
 <text x="21.717" y="3.937" size="1.016" layer="22" ratio="15" rot="MR90" align="bottom-center">DET</text>
 <text x="17.907" y="4.445" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">A</text>
@@ -3058,7 +3058,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="27.559" y="4.318" rot="R90"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="22.987" y="31.877" rot="MR0"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.969" y="33.528" rot="MR0"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.842" y="32.639" rot="MR0"/>
 <element name="J8" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="" x="17.78" y="1.27" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="17.78" y="1.27" size="1.016" layer="27" ratio="15" rot="R180" display="off"/>
 </element>

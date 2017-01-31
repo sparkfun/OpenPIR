@@ -30889,7 +30889,7 @@ and deglitch time is appropriate length.
 two pulses - one from each comparator -
 within 312 clock cycles.</text>
 <text x="170.18" y="7.62" size="2.54" layer="94" font="vector" ratio="10">Jim Lindblom</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" ratio="10">v02</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" ratio="10">v10</text>
 <text x="7.62" y="144.78" size="2.54" layer="97" font="vector" ratio="10">VCC Range: 3.0 - 5.75V</text>
 <text x="25.4" y="55.88" size="1.778" layer="97" font="vector">The NCS36000 features a 2-stage amplifier - gain and passband 
 are set by passive components R1-R4 &amp; C1-C4.
