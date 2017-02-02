@@ -27011,14 +27011,14 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="-6" y1="12" x2="-8" y2="12" width="0.127" layer="51"/>
 <wire x1="-8" y1="12" x2="-10" y2="12" width="0.127" layer="51"/>
 <wire x1="-10" y1="12.1" x2="-12.1" y2="10" width="0.2032" layer="21" curve="90"/>
-<wire x1="-8" y1="12" x2="-8" y2="13" width="0.127" layer="51"/>
-<wire x1="-8" y1="13" x2="-7" y2="14" width="0.127" layer="51" curve="-90"/>
-<wire x1="-7" y1="14.1" x2="-5.9" y2="13" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5.9" y1="13" x2="-5.9" y2="12.1" width="0.2032" layer="21"/>
-<wire x1="-8.1" y1="12.1" x2="-8.1" y2="13" width="0.2032" layer="21"/>
-<wire x1="-8.1" y1="13" x2="-7" y2="14.1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-7" y1="14" x2="-6" y2="13" width="0.127" layer="51" curve="-90"/>
-<wire x1="-6" y1="13" x2="-6" y2="12" width="0.127" layer="51"/>
+<wire x1="-8" y1="12" x2="-8" y2="12.365" width="0.127" layer="51"/>
+<wire x1="-8" y1="12.365" x2="-7" y2="13.365" width="0.127" layer="51" curve="-90"/>
+<wire x1="-7" y1="13.465" x2="-5.9" y2="12.365" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-5.9" y1="12.365" x2="-5.9" y2="12.1" width="0.2032" layer="21"/>
+<wire x1="-8.1" y1="12.1" x2="-8.1" y2="12.365" width="0.2032" layer="21"/>
+<wire x1="-8.1" y1="12.365" x2="-7" y2="13.465" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-7" y1="13.365" x2="-6" y2="12.365" width="0.127" layer="51" curve="-90"/>
+<wire x1="-6" y1="12.365" x2="-6" y2="12" width="0.127" layer="51"/>
 <polygon width="0.127" layer="46">
 <vertex x="-12.05" y="1.7"/>
 <vertex x="-10.45" y="1.7"/>
