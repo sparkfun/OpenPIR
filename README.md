@@ -2,7 +2,7 @@ OpenPIR
 ==========
 
 [![OpenPIR
-Image](https://dlnmh91p6v2uc.cloudfront.net/images/products/1/3/9/6/8/OpenPIR_Action.jpg)*OpenPIR
+Image](https://cdn.sparkfun.com/assets/parts/1/1/7/0/6/13968-01.jpg)*OpenPIR
 (SEN-13968)*](https://www.sparkfun.com/products/13968)
 
 OpenPIR is an open source general purpose passive long-wave infrared motion 
